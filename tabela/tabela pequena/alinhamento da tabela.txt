@@ -1,0 +1,12 @@
+alinhando conteudo 
+
+text-align: center; /* alinhamento horizontal das <td> */
+vertical-align: middle; /* alinhamento vertical do <td> */
+
+lembrando que quando é numero ele fica do lado direito da tabela 
+para colocamos no html5 e css usamos 
+class "numero" em <td> numero
+e no css 
+.numero{
+            text-align: right;
+        }

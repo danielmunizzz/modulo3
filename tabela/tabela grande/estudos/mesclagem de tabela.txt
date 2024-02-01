@@ -1,0 +1,4 @@
+mesclagem de tabela
+
+colspan "2" sera expandida duas coluna horizontal
+rowspn= "3" sera expandida duas coluna vertical

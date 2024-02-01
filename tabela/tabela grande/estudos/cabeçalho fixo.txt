@@ -1,0 +1,11 @@
+cabeçalho fixo 
+
+para colocamos o cabeçalho fixo 
+
+colocamos o table como posicion relative e o thead, tfoot em position sticky
+ ex: thead,tfoot{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            color: white;
+        }

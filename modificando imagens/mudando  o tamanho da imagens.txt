@@ -1,0 +1,11 @@
+posicionando imagens
+
+para posicionar imagens usamos
+
+background-position: center center // para a posiçao da foto ficar no meio
+background-position: top left // para a posiçao da foto ficar no topo esquerdo
+background-position: bottom rigth // para posiçao da foto ficar embaixo direito
+...
+
+ height: 98vh; // altura do documento
+ height: 98 vw // largura do documento

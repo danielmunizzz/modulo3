@@ -1,0 +1,13 @@
+agrupando colunas colgroup
+
+colgrup serve pra mudar as cor das colunas com menos trabalho só apenas colocando 
+os class nos col das lista th
+
+exemplo:
+<colgroup>
+<col class="nome">
+<col class="sexo">
+<col class="idade" span="2"> 
+*/col signfica a coluna ex: 1 col é a primeira coluna o segundo col é a segunda e assim por diante/*
+*/ span significa q eu colorir os dois espaço da coluna como o col idade ta na 3 coluna então eu quero o 3 e o 4 com a mesma cor
+</colgroup> 

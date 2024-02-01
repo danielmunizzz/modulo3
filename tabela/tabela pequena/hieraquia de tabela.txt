@@ -1,0 +1,46 @@
+tabela  
+
+não usar tabela pra a estrutura do site
+
+hieraquia de tabela 
+1table 
+dentro de tabela = table rows <tr>//linha de tabela
+table header// cabeçalho de tabela
+dentro de rows table data <td>// dado de tabela
+
+ex: <body>
+    <!-- hieraquia de tabela 
+    table 
+    dentro de table = table rows <tr>//linha de tabela
+    table header <td>// cabeçalho de tabela
+    table data // dado de tabela -->   
+    <h1>minha primeira tabela</h1>
+    <table>
+        <tr class="tra1"><!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        
+    </table>
+</body>
+
+ajeita a tabela usando o css
+border-collapse: collapse;/*para a bordar juntar */
+
+OBRIGATORIO RESPEITAR A HIERAQUIA DA TABELA

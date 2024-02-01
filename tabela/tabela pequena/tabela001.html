@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table{
+            width: 400px;
+            height: 400px;
+            border-collapse: collapse;/*para a bordar juntar */
+        }
+        td{
+            padding: 8px;
+            border: 1px solid blue;
+            text-align: center; /* alinhamento horizontal das <td> */
+            vertical-align: middle; /* alinhamento vertical do <td> */
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!-- hieraquia de tabela 
+    table 
+    dentro de table = table rows <tr>//linha de tabela
+    table header <td>// cabeçalho de tabela
+    table data // dado de tabela -->   
+    <h1>minha primeira tabela</h1>
+    <table>
+        <tr><!--primeira linha-->
+            <td>A1</td>
+            <td>B2</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td class="numero">C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
+        </tr>
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+        
+    </table>
+</body>
+</html>

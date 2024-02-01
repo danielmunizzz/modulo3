@@ -1,0 +1,26 @@
+imagens de fundo
+
+imagens e cores dentro de um bloco 
+para colocar cores e imagens dentro de um bloco fazemos um bloco usando o css
+div.quadrado{
+            display:inline-block;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height:300px;
+        }
+depois colocamos as cores e as imagens em determinado blocos
+ div#q1{
+            background-color: skyblue;
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+        div#q3{
+            background-image: url(imagens/pattern002.png);
+        }
+para colocar como fundo da imagens usamos 
+ body{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
+a imagens é mostrado até completar o bloco

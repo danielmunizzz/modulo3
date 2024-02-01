@@ -1,0 +1,19 @@
+tabelas grandes
+
+anatomia para tabelas grandes
+dentro de table colocamos 
+    CAPTION //titulo da tabela
+    THEAD //CABEÇA
+    TBOODY //CORPO 
+    TFOOT //FINAL DA LISTA
+    DENTRO DE TODOS ELES POSSO TER
+    <TR> <TH> <TD>-->
+
+tr é a linha da tabela antes do <th> e <td> é usado <tr>
+    
+DENTRO DE TODOS ELES POSSO TER
+    <TR> <TD> <TH>
+
+podemos mudar o tamanho da  coluna sem precisa do css
+ex: <th scope="col" style="width: 50px;">População</th>
+

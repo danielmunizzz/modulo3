@@ -1,0 +1,13 @@
+escopo de grupos
+
+th é o titulo da coluna 
+td é um dado da coluna
+
+para deixar claro pro html q é um titulo colocamos 
+
+scope="col" // mesma coluna
+scope="row" // mesma linha
+scope="colgroup // quando estiver varias colunas dentro de um titulo só
+scope="rowgroup // quando na mesma coluna do titulo estiver varias colunas
+
+

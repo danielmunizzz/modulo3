@@ -1,0 +1,11 @@
+tabelas responsivas
+
+para fazer uma tabela responsiva colocamos div em todas nossa tabela e depois
+nomeasmo como id
+
+depois colocamos no css o oveflow-x 
+
+overflow-x
+
+overflow-x significa expandir horizontalmente
+e overflow-y significar expandir verticalmente

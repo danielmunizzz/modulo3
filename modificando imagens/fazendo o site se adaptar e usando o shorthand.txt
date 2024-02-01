@@ -1,0 +1,22 @@
+fazendo o site se adaptar
+
+para fazer o texto se adaptar com a imagen de fundo usamos
+
+background-attachment:
+
+fundo travado se chama vinculo 
+
+background-attachment:scroll // é o padrão o fundo rola junto com o conteudo
+background-attachment:fixe // o fundo fica fixo com o conteudo
+
+existe a posibilidade de usar shorthand // forma organizada
+para adicionar o shorthand usamos 
+blackground: 
+ordem de uso 
+1 color
+2image 
+3position
+4 [size] ainda não foi adicionado como shorthand
+5 attachment
+no javasccript fica assim
+blackground: balck url(..) center center no-repeat fixed;

@@ -1,0 +1,32 @@
+mudando o tamanho da imagem de fundo
+
+para modificar o tamanho da imagens dec fundo usamos 
+
+background-size
+
+existe 3 tipos de bakcground-size
+
+o primeiro é o 100%de largura 100%de altura ou auto // deixa grande mas vai achatando
+
+o segundo é o contain // ele exibi 100% da imagens igual video 
+
+terceiro é o cover //ele vai cobrir a tela inteira
+
+para mudar o tamanho de uma imagen verticalmente usamos
+
+no container do site colocamos o position:relative;
+
+e no conteudo do site colocamos position:absolute;
+
+o position:absolute;*/ faz com que possamos mexer o conteudo com left e top 
+
+left:50% 
+top:50%
+/* ou seja metade da esquerda e metade do topo */
+
+depois colocamos o trasnform */transformação e uma tag que eu posso 
+mexer na caixa aplicando alguma alteração*/
+aqui vamos usar o traslater*/ traslater vai permitir que nos mude pra direita pra esquerda cima e baixo
+
+trasform:traslater(20px 20px) */ quuando é positivo é direita e baixo
+trasform:traslater(20px 20px) */ quuando é negativo é esquerda e cima

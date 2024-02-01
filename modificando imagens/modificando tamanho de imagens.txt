@@ -1,0 +1,7 @@
+imagens que se repetem no fundo do site
+
+background: size 100px 100px ?//configura o tamanho da imagens
+background-repeat: repeat // repete as fotos varias vezes até completar o bloco
+background-repeat: no-repeat // não repete as imagens
+background-repeat: repeat x // deitado/ a foto só vai repetir os lado da pagina
+background-repeat: repeat y // em pé /a foto só vai repetir em cima pra baixo da pagina

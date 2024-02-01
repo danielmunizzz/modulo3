@@ -1,0 +1,16 @@
+efeito zebrado
+
+para criar o efeito zebrado colocamos um pseudo class 
+ex: tbody > tr:nth-child(odd){ /*2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /*2n*/
+            background-color: lightgray;
+        }
+
+2n significa que ele de duas em duas vai colocando o lightgray
+3n de tres em tres e assim por diante 
+
+odd ou 2n -1 vai colocando ligthgray de acordo com numeros inpar
+even ou 2n vai colocando ligthgray de acordo com numeros par
